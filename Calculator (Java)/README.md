@@ -1,18 +1,66 @@
-## Getting Started
+# Calculator GUI
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple and lightweight desktop calculator built using **Java Swing**. This project provides a clean graphical user interface for performing basic arithmetic operations and demonstrates the fundamentals of Java GUI development.
 
-## Folder Structure
+## ✨ Features
 
-The workspace contains two folders by default, where:
+* User-friendly graphical interface
+* Basic arithmetic operations
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  * Addition
+  * Subtraction
+  * Multiplication
+  * Division
+* Clear (C) button
+* Responsive button-based input
+* Built entirely with Java Swing
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Technologies Used
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* Java
+* Java Swing
+* AWT
+* IntelliJ IDEA / VS Code (or any Java IDE)
 
-## Dependency Management
+## 📂 Project Structure
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```text
+Calculator-GUI/
+├── src/
+│   └── ...
+├── README.md
+└── LICENSE
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* JDK 17 or later
+* Any Java IDE (IntelliJ IDEA, Eclipse, VS Code, NetBeans)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/Calculator-GUI.git
+```
+
+### Run the Project
+
+1. Open the project in your preferred Java IDE.
+2. Build the project.
+3. Run the main Java class.
+
+## 🎯 Learning Objectives
+
+This project was created to practice:
+
+* Java programming
+* Object-Oriented Programming (OOP)
+* Java Swing GUI development
+* Event handling
+* Layout managers
+
+## 📄 License
+
+This project is licensed under the MIT License.
