@@ -1,0 +1,29 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\admin\Desktop\Calculator\Calculator.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\admin\Desktop\Calculator\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Application Files\Inoxy Infra\GussMe\dist;C:\Program Files\Java\jdk-24\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\Application Files\JetBrain\PyCharm 2025.1.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;D:\Application Files\JetBrain\Intelij Idea\IntelliJ IDEA Community Edition 2025.1.3\bin;;;C:\Program Files\Java\jdk-24\bin
+JRE paths:	;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Application Files\Inoxy Infra\GussMe\dist;C:\Program Files\Java\jdk-24\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\Application Files\JetBrain\PyCharm 2025.1.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.3\bin;;D:\Application Files\JetBrain\Intelij Idea\IntelliJ IDEA Community Edition 2025.1.3\bin;;;C:\Program Files\Java\jdk-24\bin
+Check launcher:	C:\Program Files\Python313\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Python313\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Oracle\Java\javapath\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	D:\Application Files\Inoxy Infra\GussMe\dist\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk-24\bin\javaw.exe (OK)
+Version string: 1.024.000_002 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-24\bin\javaw.exe
+Launcher args:	-jar "C:\Users\admin\Desktop\Calculator\Calculator.exe"
+Args length:	55/32768 chars
+Exit code:	0
