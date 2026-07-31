@@ -1,0 +1,16 @@
+Under Developement
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug JavaFX App",
+            "request": "launch",
+            "mainClass": "App",  // or "com.bookingsystem.App" if you use a package
+            "projectName": "BookingSystem2_e09c6b96",
+            "vmArgs": "--module-path \"D:/openjfx-24.0.2_windows-x64_bin-sdk/javafx-sdk-24.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

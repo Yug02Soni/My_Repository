@@ -1,0 +1,44 @@
+#V {
+    -fx-background-color: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    ;
+}
+
+#logb {
+    -fx-text-fill: white;
+    -fx-background-color: #2193b0
+}
+
+#logb:hover {
+    -fx-background-color: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    -fx-text-fill: white;
+}
+
+#hb {
+    -fx-text-fill: white;
+    -fx-background-color: #2193b0
+}
+
+#hb:hover {
+    -fx-background-color: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    -fx-text-fill: white;
+}
+
+#ca {
+    -fx-text-fill: white;
+    -fx-background-color: #2193b0
+}
+
+#ca:hover {
+    -fx-background-color: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    -fx-text-fill: white;
+}
+
+#mainb {
+    -fx-text-fill: white;
+    -fx-background-color: #2193b0
+}
+
+#mainb:hover {
+    -fx-background-color: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    -fx-text-fill: white;
+}

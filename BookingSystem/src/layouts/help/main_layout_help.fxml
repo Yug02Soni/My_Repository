@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox id="vbox" prefHeight="400.0" prefWidth="154.0" stylesheets="@css/style.css">
+         <children>
+            <ImageView fitHeight="158.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/img/online-booking.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="15.0" top="15.0" />
+               </VBox.margin>
+            </ImageView>
+            <Button id="shb" mnemonicParsing="false" prefHeight="43.0" prefWidth="143.0" stylesheets="@css/style.css" text="Search Help">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" top="15.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="shb" layoutX="15.0" layoutY="151.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="143.0" stylesheets="@css/style.css" text="Report">
+               <VBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="shb" layoutX="15.0" layoutY="204.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="143.0" stylesheets="@css/style.css" text="Go Back">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

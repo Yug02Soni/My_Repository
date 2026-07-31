@@ -1,0 +1,17 @@
+#vbox {
+    -fx-background-color: linear-gradient(to bottom, #2193b0, #6dd5ed);
+}
+
+#name {
+    -fx-text-fill: white;
+}
+
+#bts {
+    -fx-text-fill: white;
+    -fx-background-color: #2193b0;
+}
+
+#bts:hover {
+    -fx-background-color: linear-gradient(to top, #2193b0, #6dd5ed);
+    -fx-text-fill: white;
+}

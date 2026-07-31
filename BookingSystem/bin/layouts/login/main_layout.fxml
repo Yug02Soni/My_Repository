@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.login.Controller">
+    <children>
+        <Label layoutX="159.0" layoutY="14.0" prefHeight="35.0" prefWidth="363.0" text="Enter Your Details To Login To Dashboard" underline="true">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+
+        <Label layoutX="147.0" layoutY="98.0" text="Enter Your User ID">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <TextField fx:id="userIdField" layoutX="348.0" layoutY="94.0" prefHeight="25.0" prefWidth="175.0" promptText="Email ID" />
+
+        <Label layoutX="147.0" layoutY="139.0" text="Enter Your Passcode">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <PasswordField fx:id="passcodeField" layoutX="348.0" layoutY="139.0" prefHeight="25.0" prefWidth="175.0" promptText="Password" />
+
+        <Label layoutX="147.0" layoutY="190.0" text="Pick a Color">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="colorComboBox" layoutX="348.0" layoutY="187.0" prefHeight="25.0" prefWidth="175.0" />
+
+        <Label layoutX="145.0" layoutY="241.0" text="Enter Your BirthDate">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="birthDatePicker" layoutX="348.0" layoutY="237.0" prefHeight="25.0" prefWidth="175.0" />
+
+        <Button fx:id="loginButton" layoutX="436.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="49.0" prefWidth="149.0" text="Login In">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+
+        <!-- Sidebar VBox with blue gradient -->
+        <VBox id="sidebarVBox" fx:id="sidebarVBox" layoutY="-1.0" prefHeight="400.0" prefWidth="117.0" style="-fx-background-color: linear-gradient(to bottom, #1E90FF, #4169E1);" stylesheets="@css/main_layout.css">
+            <children>
+                <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../res/img/online-booking.png" />
+                    </image>
+                    <VBox.margin>
+                        <Insets left="23.0" top="25.0" />
+                    </VBox.margin>
+                </ImageView>
+                <Label prefHeight="43.0" prefWidth="117.0" text="Welcome to the Debooker" textAlignment="CENTER" textFill="#fbf6f6" wrapText="true">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Button fx:id="signButton" mnemonicParsing="false" onAction="#handleSignButton" prefHeight="25.0" prefWidth="103.0" text="Sign In">
+                    <VBox.margin>
+                        <Insets left="4.0" top="5.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+                <Button fx:id="c_a_Button" layoutX="40.0" layoutY="285.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="103.0" text="Create A Account" wrapText="true">
+                    <VBox.margin>
+                        <Insets left="4.0" top="10.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                    </font>
+                </Button>
+                <Button fx:id="helpButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Need Help">
+                    <VBox.margin>
+                        <Insets bottom="3.0" left="4.0" top="125.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

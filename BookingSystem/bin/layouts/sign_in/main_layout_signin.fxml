@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.sign_in.Controller">
+
+    <children>
+        <VBox id="V" prefHeight="400.0" prefWidth="154.0" stylesheets="@css/main_layout_signin.css">
+            <children>
+                <ImageView fitHeight="79.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../res/img/online-booking.png" />
+                    </image>
+                    <VBox.margin>
+                        <Insets left="31.0" top="20.0" />
+                    </VBox.margin>
+                </ImageView>
+
+                <Button id="ca" centerShape="false" mnemonicParsing="false" onAction="#c_a" prefHeight="32.0" prefWidth="141.0" stylesheets="@css/main_layout_signin.css" text="Create Account" textFill="#141414">
+                    <VBox.margin>
+                        <Insets left="3.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+
+                <Button id="logb" mnemonicParsing="false" onAction="#log_in" prefHeight="32.0" prefWidth="141.0" stylesheets="@css/main_layout_signin.css" text="Log In" textFill="#141414">
+                    <VBox.margin>
+                        <Insets left="3.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+
+                <Button id="hb" mnemonicParsing="false" onAction="#help" prefHeight="31.0" prefWidth="145.0" stylesheets="@css/main_layout_signin.css" text="Need Help">
+                    <VBox.margin>
+                        <Insets left="3.0" top="165.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+
+        <Label layoutX="213.0" layoutY="104.0" prefHeight="30.0" prefWidth="141.0" text="User ID" underline="true">
+            <font>
+                <Font name="Eras Bold ITC" size="20.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="userIdField" layoutX="387.0" layoutY="91.0" prefHeight="43.0" prefWidth="192.0" promptText="User ID" />
+
+        <Label layoutX="213.0" layoutY="169.0" text="Passcode" underline="true">
+            <font>
+                <Font name="Eras Bold ITC" size="20.0" />
+            </font>
+        </Label>
+
+        <PasswordField fx:id="passwordField" layoutX="387.0" layoutY="156.0" prefHeight="43.0" prefWidth="192.0" promptText="Password" />
+
+        <Label layoutX="213.0" layoutY="228.0" prefHeight="18.0" prefWidth="141.0" text="Pick A date" underline="true">
+            <font>
+                <Font name="Eras Bold ITC" size="20.0" />
+            </font>
+        </Label>
+
+        <DatePicker layoutX="387.0" layoutY="215.0" prefHeight="43.0" prefWidth="192.0" />
+
+        <Button id="mainb" layoutX="421.0" layoutY="349.0" mnemonicParsing="false" onAction="#sign_in" prefHeight="43.0" prefWidth="167.0" stylesheets="@css/main_layout_signin.css" text="SignIn" />
+
+        <Label fx:id="errorMessageLabel" layoutX="387.0" layoutY="300.0" prefWidth="200" style="-fx-text-fill: red;" />
+
+    </children>
+</AnchorPane>
