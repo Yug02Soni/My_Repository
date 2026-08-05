@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Number Gussing Game (GUI)/1.0.0": {
+        "runtime": {
+          "Number Gussing Game (GUI).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Number Gussing Game (GUI)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
